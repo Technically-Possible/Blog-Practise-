@@ -1,0 +1,70 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+.example-container {
+    height: 270px;
+    overflow: auto;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  tr.mat-footer-row {
+    font-weight: bold;
+  }
+  
+  .mat-table-sticky {
+    border-top: 1px solid #e0e0e0;
+  }
+  
+
+  /deep/ .particles-container {
+    background-color: #000000;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 2;
+    bottom: 0;
+    height: 100%;
+    z-index: -4;
+    
+}
+/deep/ .particles-container {
+    background-color: #000000;
+    color: aqua;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 2;
+    bottom: 0;
+    height: 100%;
+    z-index: -4;
+    
+}
+
+
+/deep/ .mat-tab-label{
+    min-width: 25px !important;
+    padding: 5px;
+       background-color:#535355;
+        color:white;
+        font-weight: 7000;
+}
+.mat-divider{
+    border-top-width: 5px;
+    border-top-color: rgb(83, 81, 81);
+  }
+  .example-card {
+    max-width: 800px;
+    opacity: 90%;
+    background-color:#707070;
+
+  }
+  mat-grid-tile {
+    font-style: normal;
+    color: lawngreen;
+  }
+  
+  img {
+    max-width:100%;
+    max-height: 100%;
+  }
